@@ -7,6 +7,6 @@ authors = ["Kyle Scully <scullykns@gmail.com>", ]
 readme = "README.md"
 repository = "https://github.com/zieka/emoji-printer"
 license = "MIT OR Apache-2.0"
-keywords = ["emoji", "emojis", "print", "printer", "graphic", "graphics"]
+keywords = ["emoji", "shortcode", "print", "printer", "unicode"]
 
 [dependencies]
