@@ -1,0 +1,11 @@
+[package]
+name = "emoji-printer"
+description = "Converts strings with emoji shortcodes to string with the respective emoji unicode"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kyle Scully <scullykns@gmail.com>", ]
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
