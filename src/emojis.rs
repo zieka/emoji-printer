@@ -1,4 +1,4 @@
-pub fn get_emojis_hash_map() -> std::collections::HashMap<&'static str, char> {
+pub fn hash_map() -> std::collections::HashMap<&'static str, char> {
     let mut emojis_map = std::collections::HashMap::new();
 
     emojis_map.insert(":grinning_face:", '\u{1F600}');

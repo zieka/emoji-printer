@@ -1,17 +1,17 @@
-mod emojis;
+pub mod emojis;
 
 /// Converts emoji shortcodes to unicode characters.
 /// 
 /// Example:
 /// ```
-/// use emojis::emojify;
+/// use emoji_printer::print_emojis;
 /// 
 /// let greeting = print_emojis(":waving_hand: Hello, :globe_showing_Americas: World");
 /// //  👋 Hello, 🌎 World
 /// ```
 /// 
 pub fn print_emojis(text: &str) -> std::string::String {
-    let emojis_map = emojis::get_emojis_hash_map();
+    let emojis_map = emojis::hash_map();
 
     let words = text.split_whitespace();
 
