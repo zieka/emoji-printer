@@ -17,7 +17,7 @@ cargo add emoji-printer
 use emoji_printer::print_emojis;
 
 fn main() {
-    let greeting = print_emojis(":waving_hand: Hello, :globe_showing_Americas: World");
-    println!("{}", greeting); // 👋 Hello, 🌎 World
+    let greeting = print_emojis(":waving_hand: Hello, :globe_showing_Americas: World!");
+    println!("{}", greeting); // 👋 Hello, 🌎 World!
 }
 ```
