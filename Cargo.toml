@@ -1,6 +1,6 @@
 [package]
 name = "emoji-printer"
-description = "Converts emoji shortcodes to unicode (\":sushi:\" -> 🍣)"
+description = "Replace emoji shortcodes in string with emoji unicode (\":sushi:\" -> 🍣)"
 version = "0.4.2"
 edition = "2021"
 authors = ["Kyle Scully <scullykns@gmail.com>", ]
