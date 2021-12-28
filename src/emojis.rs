@@ -1,3 +1,4 @@
+/// Returns a HashMap of emoji shortcodes to unicode characters.
 pub fn hash_map() -> std::collections::HashMap<&'static str, char> {
     let mut emojis_map = std::collections::HashMap::new();
 
