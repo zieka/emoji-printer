@@ -25,3 +25,8 @@ fn main() {
 ## What emojis are supported?
 
 See [the emoji list on unicode.org](http://www.unicode.org/emoji/charts/emoji-list.html)
+
+
+## Contributing
+
+🍻 Contributions are welcomed 🎨
